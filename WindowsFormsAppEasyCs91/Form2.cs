@@ -38,14 +38,16 @@ namespace WindowsFormsAppEasyCs91
 
             for (int i = 0; i < rb.Length; i++)
             {
-                mim[i] = Image.FromFile("C:\\Users\\Enin\\RiderProjects\\WindowsFormsAppEasyCs91\\WindowsFormsAppEasyCs91\\img\\mark1.bmp");
+                // mim[i] = Image.FromFile("C:\\Users\\Enin\\RiderProjects\\WindowsFormsAppEasyCs91\\WindowsFormsAppEasyCs91\\img\\mark1.bmp");
+                mim[i] = Image.FromFile("C:\\Users\\Enin\\RiderProjects\\WindowsFormsAppEasyCs91\\WindowsFormsAppEasyCs91\\img\\test.png");
                 rb[i] = new RadioButton();
                 rb[i].Image = mim[i];
                 rb[i].AutoSize= true;
                 rb[i].Parent = tlp;
             }
 
-            cim = Image.FromFile("C:\\Users\\Enin\\RiderProjects\\WindowsFormsAppEasyCs91\\WindowsFormsAppEasyCs91\\img\\card.bmp");
+            // cim = Image.FromFile("C:\\Users\\Enin\\RiderProjects\\WindowsFormsAppEasyCs91\\WindowsFormsAppEasyCs91\\img\\card.bmp");
+            cim = Image.FromFile("C:\\Users\\Enin\\RiderProjects\\WindowsFormsAppEasyCs91\\WindowsFormsAppEasyCs91\\img\\test.png");
             pb = new PictureBox();
             pb.Image = cim; 
             pb.SizeMode = PictureBoxSizeMode.AutoSize;

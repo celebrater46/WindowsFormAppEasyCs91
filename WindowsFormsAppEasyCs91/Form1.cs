@@ -47,6 +47,7 @@ namespace WindowsFormsAppEasyCs91
                 // mim[i] = Image.FromFile(picturePass + "mark" + i + ".bmp");
                 // mim[i] = Image.FromFile(string.Format("C:\\Users\\Enin\\RiderProjects\\WindowsFormsAppEasyCs91\\WindowsFormsAppEasyCs91\\img\\mark{0}.bmp", i));
                 mim[i] = Image.FromFile("C:\\Users\\Enin\\RiderProjects\\WindowsFormsAppEasyCs91\\WindowsFormsAppEasyCs91\\img\\mark1.bmp");
+                // mim[i] = Image.FromFile("C:\\Users\\Enin\\RiderProjects\\WindowsFormsAppEasyCs91\\WindowsFormsAppEasyCs91\\img\\test.png");
                 rb[i] = new RadioButton();
                 rb[i].Image = mim[i];
                 rb[i].AutoSize = true;
@@ -55,6 +56,7 @@ namespace WindowsFormsAppEasyCs91
             
             // cim = Image.FromFile(picturePass + "card.bmp");
             cim = Image.FromFile("C:\\Users\\Enin\\RiderProjects\\WindowsFormsAppEasyCs91\\WindowsFormsAppEasyCs91\\img\\card.bmp");
+            // cim = Image.FromFile("C:\\Users\\Enin\\RiderProjects\\WindowsFormsAppEasyCs91\\WindowsFormsAppEasyCs91\\img\\test.png");
             pb = new PictureBox();
             pb.Image = cim;
             pb.SizeMode = PictureBoxSizeMode.AutoSize;
