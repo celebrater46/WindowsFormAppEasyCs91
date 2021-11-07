@@ -6,6 +6,8 @@ namespace WindowsFormsAppEasyCs91
 {
     public partial class Form2 : Form
     {
+        // From sample1.cs For Test
+        
         // public Form2()
         // {
         //     InitializeComponent();
