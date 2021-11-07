@@ -31,12 +31,6 @@ namespace WindowsFormsAppEasyCs91
             this.Width = 650;
             this.Height = 450;
 
-            // For Test
-            // lb = new Label();
-            // lb.Text = "HelloWorld";
-            // lb.Width = 250;
-            // lb.Parent = this;
-
             tlp = new TableLayoutPanel();
             tlp.Dock = DockStyle.Fill;
             tlp.ColumnCount = 4;
@@ -44,19 +38,14 @@ namespace WindowsFormsAppEasyCs91
             
             for (int i = 0; i < rb.Length; i++)
             {
-                // mim[i] = Image.FromFile(picturePass + "mark" + i + ".bmp");
                 mim[i] = Image.FromFile(string.Format("C:\\Users\\Enin\\RiderProjects\\WindowsFormsAppEasyCs91\\WindowsFormsAppEasyCs91\\img\\mark{0}.bmp", i));
-                // mim[i] = Image.FromFile("C:\\Users\\Enin\\RiderProjects\\WindowsFormsAppEasyCs91\\WindowsFormsAppEasyCs91\\img\\mark1.bmp");
-                // mim[i] = Image.FromFile("C:\\Users\\Enin\\RiderProjects\\WindowsFormsAppEasyCs91\\WindowsFormsAppEasyCs91\\img\\test.png");
                 rb[i] = new RadioButton();
                 rb[i].Image = mim[i];
                 rb[i].AutoSize = true;
                 rb[i].Parent = tlp;
             }
             
-            // cim = Image.FromFile(picturePass + "card.bmp");
             cim = Image.FromFile("C:\\Users\\Enin\\RiderProjects\\WindowsFormsAppEasyCs91\\WindowsFormsAppEasyCs91\\img\\card.bmp");
-            // cim = Image.FromFile("C:\\Users\\Enin\\RiderProjects\\WindowsFormsAppEasyCs91\\WindowsFormsAppEasyCs91\\img\\test.png");
             pb = new PictureBox();
             pb.Image = cim;
             pb.SizeMode = PictureBoxSizeMode.AutoSize;
@@ -64,7 +53,6 @@ namespace WindowsFormsAppEasyCs91
             pb.Parent = tlp;
             
             lb = new Label();
-            // lb.Font = new Font("SansSefif", 50, FontStyle.Bold);
             lb.Font = new Font("SansSerif", 50, FontStyle.Bold);
             lb.AutoSize = true;
             lb.Anchor = AnchorStyles.None;
