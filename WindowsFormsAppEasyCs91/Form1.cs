@@ -44,8 +44,8 @@ namespace WindowsFormsAppEasyCs91
             
             for (int i = 0; i < rb.Length; i++)
             {
-                mim[i] = Image.FromFile(picturePass + "mark" + i + ".bmp");
-                // mim[i] = Image.FromFile(string.Format("C:\\Users\\Enin\\RiderProjects\\WindowsFormsAppEasyCs91\\WindowsFormsAppEasyCs91\\img\\mark{0}.bmp", i));
+                // mim[i] = Image.FromFile(picturePass + "mark" + i + ".bmp");
+                mim[i] = Image.FromFile(string.Format("C:\\Users\\Enin\\RiderProjects\\WindowsFormsAppEasyCs91\\WindowsFormsAppEasyCs91\\img\\mark{0}.bmp", i));
                 // mim[i] = Image.FromFile("C:\\Users\\Enin\\RiderProjects\\WindowsFormsAppEasyCs91\\WindowsFormsAppEasyCs91\\img\\mark1.bmp");
                 // mim[i] = Image.FromFile("C:\\Users\\Enin\\RiderProjects\\WindowsFormsAppEasyCs91\\WindowsFormsAppEasyCs91\\img\\test.png");
                 rb[i] = new RadioButton();
